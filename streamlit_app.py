@@ -13,4 +13,4 @@ listofdata = {
 
 st.table(data=listofdata)
 
-st.bar_chart(listofdata)
+st.bar_chart(listofdata['B'])
