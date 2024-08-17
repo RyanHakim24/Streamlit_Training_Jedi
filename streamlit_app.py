@@ -11,7 +11,7 @@ listofdata = {
   'B' : [2, 1, 3, 2, 4, 3, 5]
 }
 
-st.table(data=listofdata.head())
+st.table(data=pd.DataFrame(listofdata).head())
 
 st.line_chart(data=listofdata, x='A', y='B', color='#18919B')
 
