@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import tensorflow as tf
+from sklearn.linear_model import LinearRegression
 
 st.title('🎈 Training Become Jedi')
 
