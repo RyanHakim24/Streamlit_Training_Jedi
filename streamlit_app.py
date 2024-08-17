@@ -1,8 +1,11 @@
 import streamlit as st
+import numpy as np
+import pandas as pd
+import tensorflow as tf
 
-st.title('🎈 App Name')
+st.title('🎈 Training Become Jedi')
 
-st.write('Hello world!')
+st.write('Welcome Anakin')
 
 listofdata = {
   'A' : [1, 2, 3, 4, 5],
@@ -10,3 +13,5 @@ listofdata = {
 }
 
 st.table(data=listofdata)
+
+st.bar_chart(listofdata)
