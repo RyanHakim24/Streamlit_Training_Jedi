@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Training Become Jedi 
 
-Description of the app ...
+May the force be with you
 
 ## Demo App
 
