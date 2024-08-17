@@ -13,4 +13,4 @@ listofdata = {
 
 st.table(data=listofdata)
 
-st.line_chart(listofdata['B'])
+st.line_chart(data=listofdata, *, x='A', y='B', color='darkred')
